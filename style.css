@@ -3,6 +3,9 @@ body{
 	padding: 0;
 }
 
+
+/*PROFILE*/
+
 .profile{
 	background-image: url('img/bg.jpg');
 	background-repeat: no-repeat;
@@ -65,4 +68,34 @@ ul{
 	padding-right:80px;
 	padding-left: 0;
 	justify-content: space-around;
+}
+.social li:hover{
+	filter: invert(50%);
+
+}
+
+
+/*	CONTENT */
+
+
+
+.switch{
+
+}
+
+input{
+	display: none;
+}
+label{
+	display: block;
+	width: 200px;
+	height: 200px;
+	background: grey;
+}
+
+#_3D:checked ~ .content-3d{
+	background-color: yellow;
+}
+#Web:checked ~.content-web{
+	background-color: yellow;
 }
