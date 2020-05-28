@@ -121,7 +121,8 @@ color: #cdd9e6;
 
 .content{
 	opacity: 0;
-/*	position: absolute;*/
+	position: absolute;
+	margin-top: 50px;
 }
 
 .switch{
@@ -131,7 +132,7 @@ color: #cdd9e6;
 	justify-content: center;
 	flex-wrap: wrap;
 	border-radius: 15px;
-
+	height: 500px;
 
 	background: rgba(62,74,83,0.8);
 }
@@ -174,6 +175,34 @@ color: #cdd9e6;
 
 	/*color:#3e4a53;*/
 }
+
+/*MY CURRENT*/
+.my-current{
+	height: 500px;
+	width: 920px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.my-current > h1{
+	font-size: 45px;
+	margin-top:20px;
+}
+.curr-main{
+	background-color: blue;
+	height: 400px;
+	width: 880px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.curr-model{
+	margin: 30px;
+}
+
+
 
 /*FOOTER*/
 .footer{
