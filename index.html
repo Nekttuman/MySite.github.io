@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
-	<link rel="shortcut icon" href="img/goose3.png">
+	<link rel="shortcut icon" href="img/goose4.png">
 
    	<script src="https://kit.fontawesome.com/9fc5369447.js" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.7.1.js"></script>
@@ -57,47 +57,47 @@
 	<label for="Other" class="Other"><h2>Other</h2></label>
 
 <!-- 3D -->
-<div class="content _3d">
-	<!-- MY CURRENT -->
-	<div class="my-current">
-		<h1>My current project</h1>
-		<div class="curr-main">
-		<iframe class="curr-model" src="" id="api-frame" allow="autoplay; fullscreen; vr" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" height="300px" width="500px;"></iframe>
-		<div class="curr-describtion">
-			<span>Project name</span>
-			<p>describtiondescribtiondescribtiondescribtiondegfhfghfghfghscribtiondescribtiondescribtiondescribtiondescribtion</p>
+	<div class="content _3d">
+		<!-- MY CURRENT -->
+		<div class="my-current">
+			<h1>My current project</h1>
+			<div class="curr-main">
+			<iframe class="curr-model" src="" id="api-frame" allow="autoplay; fullscreen; vr" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" height="300px" width="500px;"></iframe>
+			<div class="curr-describtion">
+				<span>Project name</span>
+				<p>describtiondescribtiondescribtiondescribtiondegfhfghfghfghscribtiondescribtiondescribtiondescribtiondescribtion</p>
+			</div>
+			</div>
 		</div>
-		</div>
-	</div>
 
-	<!-- MY ALL -->
-	<div class="my-all">
-		<span class="content-header"></span>
-		<div class="projects">
-			<div class="elem"></div>
+		<!-- MY ALL -->
+		<div class="my-all">
+			<span class="content-header"></span>
+			<div class="projects">
+				<div class="elem"></div>
+			</div>
 		</div>
 	</div>
-</div>
 
 <!-- WEB -->
-<div class="content web">
-	<!-- MY CURRENT -->
-	<div class="my-current">
-		<span class="content-header">My current project</span>
-		<div class="curr-describtion">
-			<span>Project</span>
-			<p>describtiondescribtiondescribtiondescribtiondescribtiondescribtiondescribtiondescribtiondescribtion</p>
+	<div class="content web">
+		<!-- MY CURRENT -->
+		<div class="my-current">
+			<span class="content-header">My current project</span>
+			<div class="curr-describtion">
+				<span>Project</span>
+				<p>describtiondescribtiondescribtiondescribtiondescribtiondescribtiondescribtiondescribtiondescribtion</p>
+			</div>
 		</div>
-	</div>
 
-	<!-- MY ALL -->
-	<div class="my-all">
-		<span class="content-header"></span>
-		<div class="projects">
-			<div class="elem"></div>
+		<!-- MY ALL -->
+		<div class="my-all">
+			<span class="content-header"></span>
+			<div class="projects">
+				<div class="elem"></div>
+			</div>
 		</div>
 	</div>
-</div>
 
 
 </div>
@@ -114,35 +114,8 @@
 			</ul>
 	<span class="mail">nektuman@gmail.com</span>
 </div>
+
 </div>
-
-
-
-<script type="text/javascript">
-    var iframe = document.getElementById( 'api-frame' );
-    var uid = '40f6dce3d65b4159a5bd454f3e5b25e9';
-
-    // By default, the latest version of the viewer API will be used.
-    var client = new Sketchfab( iframe );
-
-    // Alternatively, you can request a specific version.
-    // var client = new Sketchfab( '1.7.1', iframe );
-
-    client.init( uid, {
-        success: function onSuccess( api ){
-            api.start();
-            api.addEventListener( 'viewerready', function() {
-
-                // API is ready to use
-                // Insert your code here
-                console.log( 'Viewer is ready' );
-
-            } );
-        },
-        error: function onError() {
-            console.log( 'Viewer error' );
-        }
-    } );
-    </script>
-  </body>
+<script type="text/javascript" src="3d_loader.js"></script>
+</body>
 </html>
