@@ -229,7 +229,7 @@ color: #cdd9e6;
 }
 
 /*FOOTER*/
-.footer{
+/*.footer{
 	background-color: rgba(0,0,0,0.5);
 	display: flex;
 	flex-direction: row;
@@ -246,4 +246,4 @@ color: #cdd9e6;
 	width: 200px;
 	padding-inline-start: 0;
 
-}
+}*/
