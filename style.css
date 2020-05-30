@@ -133,12 +133,23 @@ body{
 	width: 880px;
 }
 .elem{
-	display: flex;
+
+	/* display: flex;
 	height: 300px;
 	width: 45%;
 	flex-direction: column;
 	margin-top: 20px;
+	margin-bottom: 20px; */
+	width: 45%;
+}
+.elem > a{
+	display: flex;
+	height: 300px;
+	flex-direction: column;
+	margin-top: 20px;
 	margin-bottom: 20px;
+	text-decoration: none;
+	color: inherit;
 }
 .cards ~ .button{
 	font-size: 20px;
