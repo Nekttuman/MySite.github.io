@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/profile.css">
+  <link rel="stylesheet" href="styles/dark_theme.css" id="theme_link">
 
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -78,7 +79,7 @@
 		<!-- MY ALL -->
 		<div class="section">
 			<h1>My all</h1>
-			<div class="cards">
+			<div class="cards" id="all_items">
 				<div class="elem"><a href="#">
           <div class="all-img"></div>
           <h2>Name</h2>
@@ -111,8 +112,28 @@
                 <span class="date">12 Jul 2016</span>
               </div>
             </a></div>
+            <div class="elem"><a href="#">
+              <div class="all-img"></div>
+              <h2>Name</h2>
+              <div class="card-bottom">
+                <span class="Rate">Rate</span>
+                <span class="date">12 Jul 2016</span>
+              </div>
+            </a></div>
+            <div class="elem"><a href="#">
+              <div class="all-img"></div>
+              <h2>Name</h2>
+              <div class="card-bottom">
+                <span class="Rate">Rate</span>
+                <span class="date">12 Jul 2016</span>
+              </div>
+            </a></div>
 			</div>
-      <a href="#" class="button"><div>More</div></a>
+      <div class="buttons">
+        <div class="button" id="more_button">More</div>
+        <div class="button" id="hide_button">Hide</div>
+      </div>
+
 		</div>
 	</div>
 </div>
@@ -135,7 +156,9 @@
 <script src="https://kit.fontawesome.com/9fc5369447.js" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.7.1.js"></script>
 <script type="text/javascript" src="js/3d_loader.js"></script>
+<script type="text/javascript" src="js/unwrap_all.js">
 
+</script>
 
 </body>
 </html>

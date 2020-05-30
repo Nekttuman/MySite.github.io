@@ -1,0 +1,43 @@
+body{
+	background-color: #171c20;
+}
+.body2{
+	font-family: 'Montserrat', sans-serif;
+	color: #cdd9e6;
+}
+.profile{
+  background-image: url('../img/bg3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position:center bottom;
+}
+.item{
+border: 2px dotted rgba(205,217,230,0) ;
+}
+.item:hover{
+	border: 2px dotted rgba(205,217,230,0.5);
+}
+.item:focus{
+  background-color:  rgba(62,74,83,0.8);
+  border: 2px dotted rgba(205,217,230,0.5);
+}
+.profile-img{
+  	border: 4px dashed rgba(205,217,230,1);
+}
+
+.switch{
+  	background: rgba(62,74,83,0.8);
+}
+.content{
+	border-top: 4px dashed rgba(205,217,230,1);
+}
+.button{
+  	border: 2px dotted rgba(205,217,230,0.5);
+}
+.button:hover{
+	background-color: rgba(62,74,83,0.8);
+	border: 2px dotted rgba(205,217,230,0.5);
+}
+.button:active{
+	background-color: #BF4541;
+}

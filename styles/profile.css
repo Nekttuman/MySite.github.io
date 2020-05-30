@@ -1,9 +1,4 @@
 .profile{
-	background-image: url('../img/bg3.jpg');
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position:center bottom;
-
 	display: flex;
 	justify-content: center;
 	padding-top: 100px;
@@ -43,15 +38,9 @@
 	height: 40px;
 	width: 80px;
 	border-radius: 15px;
-	border: 2px dotted rgba(205,217,230,0) ;
 }
 .item:hover{
 	background-color: rgba(0,0,0,0.5);
-	border: 2px dotted rgba(205,217,230,0.5);
-}
-.item:focus{
-  background-color:  rgba(62,74,83,0.8);
-  border: 2px dotted rgba(205,217,230,0.5);
 }
 
 .describe-me-1{
@@ -83,7 +72,6 @@
 	border-radius: 50%;
 	width:150px;
 	height: 150px;
-	border: 4px dashed rgba(205,217,230,1);
 }
 
 .social img{
@@ -100,5 +88,4 @@
 }
 .social li:hover{
 	filter: invert(50%);
-
 }

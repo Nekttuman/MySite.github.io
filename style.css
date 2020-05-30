@@ -1,7 +1,6 @@
 body{
 	display: flex;
 	justify-content: center;
-	background-color: #171c20;
 	margin: 0;
 	padding: 0;
 }
@@ -9,8 +8,6 @@ body{
 	width: 1350px;
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
-	color: #cdd9e6;
 }
 
 /*	CONTENT */
@@ -26,8 +23,6 @@ body{
 	flex-wrap: wrap;
 	border-radius: 15px;
 	height: auto;
-
-	background: rgba(62,74,83,0.8);
 }
 
 .switch > input{
@@ -53,9 +48,6 @@ body{
 }
 
 /*content*/
-.content{
-	border-top: 4px dashed rgba(205,217,230,1);
-}
 
 /* 	labels*/
 #_3D:checked ~ ._3D,
@@ -116,13 +108,7 @@ body{
 	cursor: pointer;
 	border: 2px dotted rgba(205,217,230,0.5);
 }
-.button:hover{
-	background-color: rgba(62,74,83,0.8);
-	border: 2px dotted rgba(205,217,230,0.5);
-}
-.button:active{
-	background-color: #BF4541;
-}
+
 
 /* MY ALL */
 .cards{
@@ -131,15 +117,10 @@ body{
 	justify-content: space-around;
 	align-items: flex-start;
 	width: 880px;
+	height: 680px;
+	overflow: hidden;
 }
 .elem{
-
-	/* display: flex;
-	height: 300px;
-	width: 45%;
-	flex-direction: column;
-	margin-top: 20px;
-	margin-bottom: 20px; */
 	width: 45%;
 }
 .elem > a{
@@ -151,7 +132,7 @@ body{
 	text-decoration: none;
 	color: inherit;
 }
-.cards ~ .button{
+label ~ .button{
 	font-size: 20px;
 }
 .all-img{
@@ -162,4 +143,8 @@ body{
 .card-bottom{
 	display: flex;
 	justify-content: space-between;
+}
+
+#hide_button{
+	display: none;
 }
