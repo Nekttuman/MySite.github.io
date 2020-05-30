@@ -9,7 +9,7 @@ body{
   background-image: url('../img/dark_bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position:center center;
+  background-position:center bottom;
 }
 .profile-card{
   	background-color: rgba(0,0,0,0.5);

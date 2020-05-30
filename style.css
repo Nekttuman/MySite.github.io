@@ -65,10 +65,15 @@ body{
 	width: 880px;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
+	margin-bottom: 30px;
 }
 .curr-model{
 	margin: 30px;
+}
+.curr-img{
+	height: 400px;
 }
 .curr-describtion{
 	margin: 20px;

@@ -55,7 +55,7 @@ body{
 }
 .button{
   	color: inherit;
-  	background-color: rgb(170,184,182);
+ /* 	background-color: rgb(170,184,182);*/
   	border: 2px dotted rgb(0,64,22);
     font-weight: bold;
 }
@@ -65,7 +65,7 @@ body{
   border-radius: 15px;
 }
 .button:hover{
-	background-color: rgba(256,256,256,0.2);
+	background-color: rgb(170,184,182);
 	border: 2px dotted rgb(0,64,22);
 }
 .button:active{
