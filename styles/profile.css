@@ -12,7 +12,6 @@
 }
 .profile-card{
 	width: 600px;
-	background-color: rgba(0,0,0,0.5);
 	flex-direction: row;
 	flex-wrap: nowrap;
 	display: flex;
@@ -22,7 +21,6 @@
 .nav{
 	margin-left: 10px;
 	width: 100px;
-	background-color: rgba(0,0,0,0.5);
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -38,9 +36,6 @@
 	height: 40px;
 	width: 80px;
 	border-radius: 15px;
-}
-.item:hover{
-	background-color: rgba(0,0,0,0.5);
 }
 
 .describe-me-1{
@@ -88,4 +83,16 @@
 }
 .social li:hover{
 	filter: invert(50%);
+}
+.theme_switch img{
+	height: 32px;
+}
+.theme_switch{
+	height: 40px;
+	width: 80px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
 }
