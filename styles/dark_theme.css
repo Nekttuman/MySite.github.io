@@ -1,10 +1,16 @@
 body{
 	background-color: #171c20;
+  color: #cdd9e6;
 }
 .body2{
 	font-family: 'Montserrat', sans-serif;
-	color: #cdd9e6;
 }
+
+
+.header {
+  background-image: url('../img/dark_bg.jpg');
+}
+
 .profile{
   background-image: url('../img/dark_bg.jpg');
   background-repeat: no-repeat;
