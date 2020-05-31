@@ -1,6 +1,6 @@
 body{
 	background-color: #171c20;
-  color: #cdd9e6;
+    color: #cdd9e6;
 }
 .body2{
 	font-family: 'Montserrat', sans-serif;
@@ -8,11 +8,11 @@ body{
 
 
 .header {
-  background-image: url('../img/dark_bg.jpg');
+  background-image: url('../img/bg.png');
 }
 
 .profile{
-  background-image: url('../img/dark_bg.jpg');
+  background-image: url('../img/bg.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position:center bottom;
