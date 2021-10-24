@@ -91,6 +91,7 @@ body {
     border-radius: 10px;
 }
 
+
 section {
     /*border: 1px solid white;*/
     /*padding: 30px;*/
@@ -148,8 +149,14 @@ p {
 }
 
 .guitar iframe {
-
+    height: 315px;
+    width: 560px;
     border-radius: 10px;
     align-self: center;
     margin: 2% 0;
+}
+._3D iframe{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
 }
