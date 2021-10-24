@@ -1,35 +1,31 @@
-var btn = document.getElementById("theme_switch");
-var link = document.getElementById("theme_link");
+let btn = document.getElementById("theme_switch");
+let link = document.getElementById("theme_link");
 
-var currTheme;
-  if(!localStorage.getItem("Theme"))
-  {
+let currTheme = '';
+if (!localStorage.getItem("Theme")) {
     currTheme = link.getAttribute("href");
-  }else{
+} else {
     currTheme = localStorage.getItem("Theme");
-    console.log("durrak");
-  }
+}
 link.setAttribute("href", currTheme);
 
-btn.addEventListener("click", function () { ChangeTheme();});
-function ChangeTheme()
-{
+btn.addEventListener("click", function () {
+    console.log(currTheme);
+    ChangeTheme();
+
+});
+
+function ChangeTheme() {
 
     let lightTheme = "styles/light_theme.css";
     let darkTheme = "styles/dark_theme.css";
 
     currTheme = link.getAttribute("href");
-    var theme = "";
 
-    if(currTheme == lightTheme)
-    {
-   	 currTheme = darkTheme;
-   	 theme = "dark";
-    }
-    else
-    {
-   	 currTheme = lightTheme;
-   	 theme = "light";
+    if (currTheme == lightTheme) {
+        currTheme = darkTheme;
+    } else {
+        currTheme = lightTheme;
     }
 
     link.setAttribute("href", currTheme);

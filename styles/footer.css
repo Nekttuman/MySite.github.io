@@ -1,17 +1,21 @@
-.footer{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	padding: 20px;
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-.footer .social{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	list-style-type: none;
-	width: 200px;
-	padding-inline-start: 0;
+.email a {
+    color: inherit;
+}
 
+footer .social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 20%;
+    padding-inline-start: 0;
 }

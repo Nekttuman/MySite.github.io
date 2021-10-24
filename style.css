@@ -1,150 +1,155 @@
-body{
-	display: flex;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
-
-	font-family: 'Montserrat', sans-serif;
-}
-.body2{
-	width: 1350px;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*	CONTENT */
-.header{
-	height: 72px;
-	padding: 20px;
 
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position:center bottom;
-}
-
-
-.switch{
-	width: 1100px;
-	margin: 10px auto;
-	display: flex;
-	justify-content: center;
-	align-items: top;
-	flex-wrap: wrap;
-	border-radius: 15px;
-	height: auto;
-}
-
-.switch > input{
-	display: none;
-}
-.switch > label{
-	/*margin-right: 20px;*/
-	margin: 10px 5px 0px 5px;
-	border-radius: 15px 15px 0px 0px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	float: left;
-	width: 300px;
-	height: 50px;
-}
 
 /*content*/
+.social img {
+    width: 36px;
+}
+
+.social li:hover {
+    filter: invert(50%);
+}
 
 /* 	labels*/
 
 /*MY CURRENT*/
-.section{
-	height: auto;
-	width: 920px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 20px;
-}
-.section > h1{
-	font-size: 45px;
-	margin-top:20px;
+.section {
+    height: auto;
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.cont-main{
-	height: 400px;
-	width: 880px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	margin-bottom: 30px;
-}
-.curr-model{
-	margin: 30px;
-}
-.curr-img{
-	height: 400px;
-}
-.curr-describtion{
-	margin: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 350px;
-	height: 88%;
+.section > h1 {
+    font-size: 45px;
+    margin-top: 20px;
 }
 
-.button{
-	border-radius: 15px;
-	width: 200px;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-	align-self: center;
-	margin-bottom: 20px;
-	cursor: pointer;
+.cont-main {
+    height: 400px;
+    width: 880px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-
-/* MY ALL */
-.cards{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: flex-start;
-	width: 880px;
-	height: 680px;
-	overflow: hidden;
-}
-.elem{
-	width: 45%;
-}
-.elem > a{
-	display: flex;
-	height: 300px;
-	flex-direction: column;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	text-decoration: none;
-	color: inherit;
-}
-label ~ .button{
-	font-size: 20px;
-}
-.all-img{
-	height: 70%;
-	width: 100%;
-	background-color: white;
-}
-.card-bottom{
-	display: flex;
-	justify-content: space-between;
+.curr-model {
+    margin: 30px;
 }
 
-#hide_button{
-	display: none;
+.curr-img {
+    height: 400px;
+}
+
+.curr-description {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 88%;
+}
+
+.button {
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    align-self: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+._3D-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+._3D-imgs img {
+    height: 300px;
+    width: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+section {
+    /*border: 1px solid white;*/
+    /*padding: 30px;*/
+    /*margin: 2% 7%;*/
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+
+    margin: 2% 7%;
+}
+
+main {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    margin: 0 10%;
+    padding: 20px;
+
+}
+
+h2 {
+
+    margin: 2% 3% 0 3%;
+}
+
+main h2 {
+    margin-top: 4%;
+}
+
+h3 {
+    margin: 2% 3% 0 0%;
+}
+
+.mark {
+    font-size: 150%;
+    margin-right: 10px;
+}
+
+p {
+    margin: 2%;
+    padding: 0 5%;
+    line-height: 1.7;
+}
+
+._3D iframe {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    align-self: center;
+    margin: 2% 0;
+}
+
+.guitar iframe {
+
+    border-radius: 10px;
+    align-self: center;
+    margin: 2% 0;
 }

@@ -1,0 +1,50 @@
+.feedback{
+    padding: 2%;
+}
+.feedback form{
+    display: flex;
+    align-self: center;
+    /*align-items: center;*/
+    flex-direction: column;
+    margin: 2%;
+}
+.variants{
+    margin: 1%;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+
+}
+.feedback input[type="radio"]{
+    display: none;
+}
+.feedback label{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 3%;
+    padding: 10px;
+    text-align: center;
+    color: inherit;
+    font-family: inherit;
+    border-radius: 15px;
+    /*background-color: aquamarine;*/
+}
+.feedback h2 {
+    /*align-self: start;*/
+    margin-bottom: 2%;
+}
+
+#btn {
+    /*width: 10%;*/
+    align-self: end;
+    font-family: inherit;
+    padding: 1% 4%;
+    margin-right: 2%;
+    border-radius: 0;
+    border: none;
+}
+
+#btn:hover{
+    cursor: pointer;
+}
