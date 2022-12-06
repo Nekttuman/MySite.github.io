@@ -12,7 +12,7 @@
 
 ![скрин темной темы](/img/dark_theme_illustration.png)
 
-![скрин светлой темы](/img/Light_theme_illustration.png)
+![скрин светлой темы](/img/light_theme_illustration.png)
 
 
 
